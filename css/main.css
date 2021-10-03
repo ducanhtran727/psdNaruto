@@ -1,0 +1,425 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+.slide-one {
+    background-image: url('../image/BGtop.png');
+    width: 100%;
+    background-position: 55% 65%;
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.content-container {
+    width: 93%;
+    display: flex;
+    justify-content: center;
+}
+.left-slide-one {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.group-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-container > div {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 300px;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.img-btn {
+    width: 110%;
+}
+.img-btn > img {
+     width: 110%;
+}
+.btn-top {
+    position: relative;
+}
+.btn-top > .copy-img {
+    position:absolute;
+    right: 0%;
+    top: 22%;
+    width: 15px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.copy-img > img {
+    width: 100%;
+}
+.mark {
+    position: absolute;
+    width: 3px;
+    height: 60%;
+    background-color: black;
+    right: 10%;
+    top: 7%;
+}
+.code {
+    font-family: "Impact";
+    font-size: 16px;
+    letter-spacing: 1px;
+    position: absolute; 
+    color: black;
+    right: 20%;
+    top: 26%;
+}
+.img-left {
+    width: 85%;
+    height: 45%
+}
+.btn-info {
+    color: #ffcb00;
+    font-size: 14px;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 2%;
+    left: 11%;
+    font-family: "Impact";
+}
+.btn-container-right {
+    display: flex;
+    flex-direction: column;
+}
+.btn-right-top {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 200px;
+    margin-bottom: 17px;
+    position: relative;
+    cursor: pointer;
+}
+.btn-right-top > img {
+    width: 100%;
+}
+.tag-name {
+    position: absolute;
+    top: 27%;
+    right: 30%;
+    font-size: 16px;
+    color: black;
+    font-family: "Impact";
+}
+.btn-bottom {
+    display: flex;
+    justify-content: center;
+}
+.btn-enter {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 240px;
+    cursor: pointer;
+}
+.btn-enter > img {
+    width: 240px;
+}
+.slide-two > img {
+    width: 100%;
+}
+.slide-two {
+    position: relative;
+    background-image: url(../image/Rectangle\ 1\ copy\ \(3\).png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 834px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+}
+.box-title {
+    display: flex;
+    justify-content: center;
+}
+.title-slide-two {
+    position: relative;
+    display: inline-block;
+}
+.title-slide-two > .text-title {
+    position: absolute;
+    top: 39%;
+    right: 20%;
+    font-size: 32px;
+    color: #ffa124;
+    font-family: "Impact";
+    letter-spacing: 2px;
+}
+.box-container {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.box-container > .box-item {
+    width: 48%;
+    margin-left: 2%;
+    position: relative;
+}
+.box-item > p {
+    font-size: 22px;
+    color: black;
+    font-family: "Impact";
+    position: absolute;
+    bottom: 13%;
+    left: 26%;
+}
+.box-item > img {
+    width: 100%;
+}
+.content-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.box-info {
+    width: 40%;
+    margin-left: 100px;
+}
+.box-info > h2 {
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: black;
+}
+.box-info > p {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.slide-three {
+    width: 100%;
+    height: 750px;
+    background-image: url(../image/BG3.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-position-y: center;
+    padding-top: 50px;
+}
+.slide-four {
+    width: 100%;
+    height: 700px;
+    background-image: url(../image/BG4.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-top: 80px;
+    position: relative;
+}
+.slide-five {
+    width: 100%;
+    height: 800px;
+    background-image: url(../image/BG5.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-top: 120px;
+}
+.shape13 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+.shape5 {
+    position: absolute;
+    bottom: 0%;
+    right: 3%;
+    width: 100%;
+}
+.slide-six {
+    width: 100%;
+    height: 1050px;
+    background-image: url(../image/BG6.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-top: 180px;
+}
+.slide-seven {
+    width: 100%;
+    height: 800px;
+    background-image: url(../image/BG7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+.slide-seven > img {
+    width: 80%;
+}
+.content-footer {
+    width: 50%;
+    position: absolute;
+    top: 22%;
+    left: 26%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.content-footer > h3 {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.faq-item {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border-bottom: 1px solid #ffcb00;
+
+}
+.table-info {
+    width: 60%;
+    position: relative;
+}
+.table-info > img {
+    width: 100%;
+}
+.img-three{
+    width: 35%;
+}
+.table-content {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 6%;
+    left: 13%;
+}
+.table-content > h2{
+    font-size: 25px;
+    font-family: "Impact";
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.table-content > .content-detail {
+    display: flex;
+    justify-content: space-around;
+}
+.content-detail > .content-col {
+    width: 22%;
+}
+.content-detail > .content-col > h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.line-red {
+     width: 1px;
+     height: 300px;
+     background-color: lightcoral;
+}
+.title-slide-two > .text-title-four {
+    position: absolute;
+    top: 39%;
+    right: 34%;
+    font-size: 32px;
+    color: lightseagreen;
+    font-family: "Impact";
+    letter-spacing: 2px;
+}
+.title-slide-two > .text-title-five {
+    position: absolute;
+    top: 39%;
+    right: 34%;
+    font-size: 32px;
+    color: black;
+    font-family: "Impact";
+    letter-spacing: 2px;
+}
+.box-group {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 60px;
+}
+.box1 {
+    width: 20%;
+    position: relative;
+}
+.box2  {
+    width: 20%;
+    margin: 0 40px;
+    position: relative;
+}
+.box3 {
+    width: 20%;
+    position: relative;
+}
+.box1 > img {
+    width: 100%;
+}
+.box2 > img {
+    width: 100%;
+}
+.box3 > img {
+    width: 100%;
+}
+.box-text{
+    position: absolute;
+    width: 70%;
+    top: 8%;
+    right: 12%;
+}
+.box-text > h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.box-text > p {
+    margin-bottom: 16px;
+}
+.text-title-six {
+    color: lightcoral;
+    position: absolute;
+    top: 39%;
+    right: 34%;
+    font-size: 32px;
+    font-family: "Impact";
+    letter-spacing: 2px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+.card-container > img {
+    width: 18%;
+    margin: 0 8px;
+}
+.info-footer {
+   position: absolute;
+    text-align: center;
+    color: #ffffff;
+    bottom: 2%;
+    right: 34%;
+}
+

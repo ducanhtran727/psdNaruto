@@ -1,0 +1,29 @@
+.nav-container {
+    display: block;
+    background-image: url(../image/BG.png);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    z-index: 9999;
+}
+.list-menu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    width: 60%;
+    justify-content: space-between;
+}
+.list-menu > .nav-name{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: #000000;
+    cursor: pointer;
+}
+.active {
+    color: #562000 !important;
+}
