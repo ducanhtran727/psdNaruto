@@ -4,14 +4,16 @@
     padding: 0;
 }
 body{
-    background-color: black;
+    /* background-color: black; */
+    background-image: url('../image/bg23.png');
+    background-size: cover;
 }
 .main-container {
     display: flex;
     flex-direction: column;
 }
 .slide-one {
-    background-image: url('../image/BGtop.png');
+    /* background-image: url('../image/BGtop.png'); */
     width: 100%;
     background-position: 55% 65%;
     height: 600px;
@@ -138,7 +140,7 @@ body{
 }
 .slide-two {
     position: relative;
-    background-image: url(../image/Rectangle\ 1\ copy\ \(3\).png);
+    /* background-image: url(../image/Rectangle\ 1\ copy\ \(3\).png); */
     background-repeat: no-repeat;
     width: 100%;
     height: 834px;
@@ -173,6 +175,7 @@ body{
 .box-container > .box-item {
     width: 48%;
     margin-left: 2%;
+    height: 170px;
     position: relative;
 }
 .box-item > p {
@@ -180,11 +183,12 @@ body{
     color: black;
     font-family: "Impact";
     position: absolute;
-    bottom: 13%;
-    left: 26%;
+    bottom: 10%;
+    left: 23%;
 }
 .box-item > img {
     width: 100%;
+    height: 100%;
 }
 .content-box {
     width: 100%;
@@ -211,7 +215,7 @@ body{
 .slide-three {
     width: 100%;
     height: 750px;
-    background-image: url(../image/BG3.png);
+    /* background-image: url(../image/BG3.png); */
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -221,7 +225,7 @@ body{
 .slide-four {
     width: 100%;
     height: 700px;
-    background-image: url(../image/BG4.png);
+    /* background-image: url(../image/BG4.png); */
     background-repeat: no-repeat;
     background-position-y: center;
     padding-top: 80px;
@@ -230,7 +234,7 @@ body{
 .slide-five {
     width: 100%;
     height: 800px;
-    background-image: url(../image/BG5.png);
+    /* background-image: url(../image/BG5.png); */
     background-repeat: no-repeat;
     background-position-y: center;
     padding-top: 120px;
@@ -250,7 +254,7 @@ body{
 .slide-six {
     width: 100%;
     height: 1050px;
-    background-image: url(../image/BG6.png);
+    /* background-image: url(../image/BG6.png); */
     background-repeat: no-repeat;
     background-position-y: center;
     padding-top: 180px;
@@ -258,7 +262,7 @@ body{
 .slide-seven {
     width: 100%;
     height: 800px;
-    background-image: url(../image/BG7.png);
+    /* background-image: url(../image/BG7.png); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
